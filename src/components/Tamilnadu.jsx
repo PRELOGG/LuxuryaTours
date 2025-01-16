@@ -1,25 +1,5 @@
-// import React from 'react'
-// import TamilnaduTours from '../assets/Tamilnadu.jpg'
-
-// export const Tamilnadu = () => {
-//   return (
-//     <div>
-//         <div>
-//             <img src={TamilnaduTours} alt='Tamilnadu...' />
-
-//             <div className=" absolute top-0 flex justify-center">
-//                 <div className="w-2/3 h-96 bg-blue-600 ">
-
-//                 </div>
-
-//             </div>
-//         </div>
-//     </div>
-//   )
-// }
-
 import React from 'react';
-import TamilnaduTours from '../assets/Tamilnadu.jpg';
+import TamilnaduTours from '../assets/LUXURYA/Tamil nadu/Kotagiri.webp';
 
 export const Tamilnadu = () => {
   return (
