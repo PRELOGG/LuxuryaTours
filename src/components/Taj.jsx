@@ -31,22 +31,7 @@ export const Taj = () => {
   return (
    
     <div className="relative w-full h-full overflow-hidden grid gap-2">
-      {/* Overlay Content */}
-      <div className="flex flex-col items-center justify-center text-center px-4 z-10">
-        <div className="h-96 bg-white backdrop-brightness-200 rounded-3xl ">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 p-5">
-            Mysuru Perales
-          </h1>
-          <p className="mt-4 text-gray-800 text-base sm:text-lg lg:text-xl relative bottom-6">
-            Explore the cultural heritage, vibrant festivals, and breathtaking
-            landscapes of Tamil Nadu. Immerse yourself in a journey filled with
-            history and natural beauty.
-          </p>
-          <button className="mt-6 bg-black text-white py-2 px-6 rounded-full hover:bg-gray-800" onClick={()=>window.location.href='/TajInformation'}>
-            Start Now
-          </button>
-        </div>
-      </div>
+  
 
       {/* Carousel */}
       <div>

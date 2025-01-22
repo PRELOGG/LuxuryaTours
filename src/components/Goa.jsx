@@ -3,7 +3,7 @@ import GoaTours from '../assets/goamain.jpg'
 
 export const Goa = () => {
   return (
-    <div className="relative w-full h-screen p-10">
+    <div className="relative w-full h-screen ">
       {/* Background Image */}
       <div className="w-full h-full">
         <img
@@ -16,10 +16,10 @@ export const Goa = () => {
       {/* Centered Transparent Container */}
       <div className="absolute inset-0 flex items-center justify-center p-4 sm:p-8 text-white">
         <div className="w-screen max-w-4xl   rounded-3xl  p-8 flex flex-col items-center justify-center h-[500px]">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center ">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center bg-gradient-to-r from-white to-yellow-500 bg-clip-text text-transparent ">
            Goa
           </h1>
-          <p className="mt-4 text-center  text-sm sm:text-base lg:text-lg">
+          <p className="mt-4 text-center  text-sm sm:text-base lg:text-lg bg-gradient-to-r from-white to-yellow-500 bg-clip-text text-transparent">
             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
