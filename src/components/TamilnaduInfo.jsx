@@ -1,68 +1,53 @@
 import React from "react";
-import Ooty from '../assets/Tamilnadu.jpg'
+import Ooty from '../assets/Ooty.jpg'
+import Koadaikanal from '../assets/Kodaikanal.jpg'
+import Chennai from '../assets/Chenai.jpg'
+import Madurai from '../assets/Maduurai.jpeg'
+import Thanjavur from '../assets/Thanjavr.jpg'
+import Yearcard from '../assets/Yearcaud.webp'
 
 export const TamilnaduInfo = () => {
+   
+    
     const places = [
         {
             name: "Meenakshi Amman Temple",
             location: "Madurai",
-            image: Ooty,
+            image: Madurai,
             description: "A historic temple known for its intricate carvings and spiritual significance."
         },
         {
             name: "Marina Beach",
             location: "Chennai",
-            image: "https://example.com/marina-beach.jpg",
+            image: Chennai,
             description: "The longest natural urban beach in India, perfect for relaxing and enjoying the sea breeze."
         },
         {
             name: "Ooty Botanical Gardens",
             location: "Ooty",
-            image: "https://example.com/ooty-gardens.jpg",
+            image: Ooty,
             description: "A stunning garden in the Nilgiri Hills, showcasing diverse flora and breathtaking landscapes."
         },
         {
             name: "Thanjavur Brihadeeswarar Temple",
             location: "Thanjavur",
-            image: "https://example.com/brihadeeswarar.jpg",
+            image: Thanjavur,
             description: "A UNESCO World Heritage Site, this Chola temple is a masterpiece of architecture."
         },
         {
             name: "Kodaikanal Lake",
             location: "Kodaikanal",
-            image: "https://example.com/kodaikanal-lake.jpg",
+            image: Koadaikanal,
             description: "A serene man-made lake surrounded by lush greenery, perfect for boating and picnics."
         },
-        {
-            name: "Mahabalipuram Shore Temple",
-            location: "Mahabalipuram",
-            image: "https://example.com/shore-temple.jpg",
-            description: "An ancient rock-cut temple by the sea, showcasing Pallava architecture."
-        },
+
         {
             name: "Yercaud",
-            location: "Salem",
-            image: "https://example.com/yercaud.jpg",
+            location: "Yercaud",
+            image: Yearcard,
             description: "A picturesque hill station known for its coffee plantations and serene environment."
-        },
-        {
-            name: "Rameswaram Temple",
-            location: "Rameswaram",
-            image: "https://example.com/rameswaram.jpg",
-            description: "A sacred pilgrimage site, famous for its long corridors and spiritual importance."
-        },
-        {
-            name: "Courtallam Falls",
-            location: "Tenkasi",
-            image: "https://example.com/courtallam.jpg",
-            description: "Known as the 'Spa of South India', these waterfalls offer a refreshing experience."
-        },
-        {
-            name: "Velankanni Church",
-            location: "Nagapattinam",
-            image: "https://example.com/velankanni.jpg",
-            description: "A renowned Christian pilgrimage site, also known as the 'Lourdes of the East'."
         }
+     
     ];
 
     return (

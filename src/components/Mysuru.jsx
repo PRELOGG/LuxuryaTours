@@ -1,5 +1,5 @@
 import React from 'react';
-import MysuruTours from '../assets/LUXURYA/Karanataka/Mysore palers.jpg'
+import MysuruTours from '../assets/mysore-palace.jpg'
 
 
 

@@ -5,7 +5,7 @@ import Instagram from '../assets/instagram (1).png'
 import Facebook from '../assets/facebook (1).png'
 import Contact from '../assets/phone.png'
 import Twitter from '../assets/twitter (1).png'
-import Logo from '../assets/LUXURYA/Tamil nadu/Luxurya.jpg'
+import Logo from '../assets/Luxurya-remove.png'
 
 
 export const Footer = () => {

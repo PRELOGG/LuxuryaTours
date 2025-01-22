@@ -1,61 +1,21 @@
-// import React from 'react';
-// import MysuruTours from '../assets/LUXURYA/Karanataka/Mysuru zoo.jpg'
-
-
-
-// export const Taj = () => {
-//     return (
-//         <div>
-//             <div className="relative w-full h-screen bottom-36">
-
-//                 {/* Centered Transparent Container */}
-//                 <div className=" flex items-center justify-center p-4 sm:p-8 ">
-//                     <div className="w-screen max-w-4xl bg-white/5   rounded-3xl shadow-lg p-8 flex flex-col items-center  justify-center h-[350px] relative top-48 ">
-//                         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-gray-900">
-//                             Mysuru Perales
-//                         </h1>
-//                         <p className="mt-4 text-center text-gray-900 text-sm sm:text-base lg:text-lg">
-//                             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-//                             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-//                             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-
-//                         </p>
-//                         {/* <p className="text-white border-2 border-solid w-36 h-10 p-2 items-center flex justify-center mt-3 hover:text-blue-300 rounded-full">Start now</p> */}
-//                         <button className="btn bg-black text-white rounded-pill my-4 fs-5 px-4">Start now</button>
-//                     </div>
-//                 </div>
-
-//                 <div className="w-full h-full">
-//                     {/* Background Image */}
-//                     <img
-//                         src={MysuruTours}
-//                         alt="Tamilnadu..."
-//                         className="w-full h-full object-cover" // Ensures the image scales responsively
-//                     />
-
-
-//                 </div>
-//             </div>
-
-//         </div>
-//     );
-// };
-
-
-
-
-
-
 
 import React, { useEffect, useState } from 'react';
-import TajTours from '../assets/LUXURYA/Kerala/Wayanad.jpg';
-import Exp from '../assets/LUXURYA/Goa/Dabolim.jpg';
-import Ju from '../assets/LUXURYA/Kerala/Boat House.jpg';
-import Lk from '../assets/LUXURYA/Karanataka/Madikara.jpg';
-import juk from '../assets/Tamilnadu.jpg';
+
+import Scroll1 from '../assets/Footer/Hills 1.jpg';
+import Scroll2 from '../assets/Footer/Hills 2.jpg';
+import Scroll3 from '../assets/Footer/Hills 3.jpeg';
+import Scroll4 from '../assets/Footer/Hills 4.jpg';
+import Scroll5 from '../assets/Footer/Hills 5.jpeg';
+import Scroll6 from '../assets/Footer/Hills 6.jpg';
+import Scroll7 from '../assets/Footer/Hills 7.webp';
+import Scroll8 from '../assets/Footer/Hills 8.jpg';
+import Scroll9 from '../assets/Footer/Hills 9.jpg';
+import Scroll10 from '../assets/Footer/Hills 10.jpg';
+
+
 
 export const Taj = () => {
-  const images = [TajTours, Exp, Ju, Lk, juk];
+  const images = [Scroll1, Scroll2,Scroll3,Scroll4,Scroll5,Scroll6,Scroll7,Scroll8,Scroll9,Scroll10];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -91,7 +51,7 @@ export const Taj = () => {
       {/* Carousel */}
       <div>
       <div
-        className="relative flex w-[550%] h-full transition-transform duration-700 ease-in-out "
+        className="relative flex w-[1100%] h-full transition-transform duration-700 ease-in-out "
         style={{
           transform: `translateX(-${currentIndex * 100}vw)`,
         }}

@@ -1,5 +1,5 @@
 import React from 'react'
-import GoaTours from '../assets/LUXURYA/Goa/Goa beach.jpg'
+import GoaTours from '../assets/goamain.jpg'
 
 export const Goa = () => {
   return (
@@ -9,17 +9,17 @@ export const Goa = () => {
         <img
           src={GoaTours}
           alt="Tamilnadu..."
-          className="w-full h-full object-cover" // Ensures the image scales responsively
+          className="w-full h-full object-cover brightness-50" // Ensures the image scales responsively
         />
       </div>
 
       {/* Centered Transparent Container */}
-      <div className="absolute inset-0 flex items-center justify-center p-4 sm:p-8">
+      <div className="absolute inset-0 flex items-center justify-center p-4 sm:p-8 text-white">
         <div className="w-screen max-w-4xl   rounded-3xl  p-8 flex flex-col items-center justify-center h-[500px]">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-gray-900">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center ">
            Goa
           </h1>
-          <p className="mt-4 text-center text-gray-900 text-sm sm:text-base lg:text-lg">
+          <p className="mt-4 text-center  text-sm sm:text-base lg:text-lg">
             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
             Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
