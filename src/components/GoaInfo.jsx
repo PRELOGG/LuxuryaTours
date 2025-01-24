@@ -6,7 +6,6 @@ import Chapora from '../assets/Chapora fort.webp'
 import Dudhasar from '../assets/Dudhasar.jpg'
 import Harvalen from '../assets/Harvalem Waterfalls.webp'
 import Ilove from '../assets/I love Goa.webp'
-import Paloloe from '../assets/Palole beach.jpg'
 import Palolem from '../assets/Palolem Beach.jpg'
 import Shree from '../assets/Shree Shantadurga Temple.webp'
 import Sinquerium from '../assets/Sinquerim Beach.webp'
@@ -14,61 +13,66 @@ import Sinquerium from '../assets/Sinquerim Beach.webp'
 export const GoaInfo = () => {
     const places = [
         {
-            name: "Calangute Beach",
-            image: Candolim, // Replace with actual image link
-            description: "Calangute Beach is the largest beach in Goa, popular for water sports and vibrant nightlife."
+          name: "Fort Aguada Lighthouse",
+          image: Aguda,
+          description:
+            "A historic 17th-century Portuguese fort, famous for its iconic lighthouse and panoramic views of the Arabian Sea.",
         },
         {
-            name: "Baga Beach",
-            image: Harvalen, // Replace with actual image link
-            description: "Baga Beach is famous for its beach parties, shacks, and water sports activities."
+          name: "Arambol Beach",
+          image: Arambol,
+          description:
+            "A serene beach in North Goa, popular for its laid-back atmosphere, yoga retreats, and live music sessions.",
         },
         {
-            name: "Dudhsagar Falls",
-            image: Dudhasar, // Replace with actual image link
-            description: "Dudhsagar Falls is one of India's tallest waterfalls, surrounded by lush greenery."
+          name: "Candolim Beach",
+          image: Candolim,
+          description:
+            "Known for its tranquil vibes, Candolim Beach is perfect for a peaceful stroll and beachfront dining.",
         },
         {
-            name: "Basilica of Bom Jesus",
-            image: Paloloe, // Replace with actual image link
-            description: "This UNESCO World Heritage site houses the mortal remains of St. Francis Xavier."
+          name: "Chapora Fort",
+          image: Chapora,
+          description:
+            "A scenic fort made famous by Bollywood, offering stunning views of Vagator Beach and the Arabian Sea.",
         },
         {
-            name: "Anjuna Beach",
-            image: Shree, // Replace with actual image link
-            description: "Anjuna Beach is known for its scenic beauty, flea markets, and trance parties."
+          name: "Dudhsagar Falls",
+          image: Dudhasar,
+          description:
+            "One of India’s tallest waterfalls, Dudhsagar Falls is a majestic sight surrounded by lush forests and trekking trails.",
         },
         {
-            name: "Fort Aguada",
-            image: Aguda, // Replace with actual image link
-            description: "Fort Aguada is a 17th-century fort offering stunning views of the Arabian Sea."
+          name: "Harvalem Waterfalls",
+          image: Harvalen,
+          description:
+            "A hidden gem in Goa, Harvalem Waterfalls is a perfect spot for nature lovers and photography enthusiasts.",
         },
         {
-            name: "Palolem Beach",
-            image: Palolem, // Replace with actual image link
-            description: "Palolem Beach is a serene destination, perfect for relaxation and kayaking."
+          name: "I Love Goa Spot",
+          image: Ilove,
+          description:
+            "A trendy photo spot with the iconic 'I Love Goa' sign, ideal for capturing memorable moments in Goa.",
         },
         {
-            name: "Chapora Fort",
-            image: Chapora, // Replace with actual image link
-            description: "Chapora Fort, made famous by Bollywood, offers breathtaking views of the Vagator Beach."
+          name: "Palolem Beach",
+          image: Palolem,
+          description:
+            "A picturesque crescent-shaped beach, ideal for kayaking, dolphin-watching, and unwinding in peaceful surroundings.",
         },
         {
-            name: "Se Cathedral",
-            image: Ilove, // Replace with actual image link
-            description: "Se Cathedral is one of the largest churches in Asia, known for its Portuguese-Gothic architecture."
+          name: "Basilica of Bom Jesus",
+          image: Shree,
+          description:
+            "A UNESCO World Heritage Site housing the mortal remains of St. Francis Xavier, showcasing stunning Baroque architecture.",
         },
         {
-            name: "Arambol Beach",
-            image: Arambol, // Replace with actual image link
-            description: "Arambol Beach is a tranquil location popular for yoga retreats and live music."
+          name: "Sinquerim Beach",
+          image: Sinquerium,
+          description:
+            "A golden sandy beach ideal for water sports like parasailing and jet skiing, close to the famous Fort Aguada.",
         },
-        {
-            name: "Arambol Beach",
-            image: Sinquerium, // Replace with actual image link
-            description: "Arambol Beach is a tranquil location popular for yoga retreats and live music."
-        }
-    ];
+      ];
 
     return (
         <div className="bg-gray-100 p-10">
@@ -80,7 +84,7 @@ export const GoaInfo = () => {
             {places.map((place, index) => (
                 <div
                     key={index}
-                    className="relative group overflow-hidden rounded-lg shadow-lg bg-white"
+                    className="relative group overflow-hidden rounded-lg shadow-lg bg-white" onClick={()=>window.location.href='/Enquiry'}
                 >
                     <img
                         src={place.image}
@@ -89,16 +93,9 @@ export const GoaInfo = () => {
                     />
                     <div className="p-4">
                         <h3 className="text-xl font-bold text-gray-800">{place.name}</h3>
-                        <p className="text-sm text-gray-600">{place.location}</p>
+                        <p className="text-sm text-gray-600">{place.description}</p>
                     </div>
-                    <div
-                        className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 
-                                   transition-opacity duration-500 backdrop-blur-md flex items-center justify-center text-center p-6"
-                    >
-                        <p className="text-white text-base leading-6 font-medium">
-                            {place.description}
-                        </p>
-                    </div>
+
                 </div>
             ))}
         </div>

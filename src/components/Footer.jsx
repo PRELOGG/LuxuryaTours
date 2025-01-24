@@ -2,9 +2,7 @@ import React from 'react';
 import Whatsapp from '../assets/whatsapp.png'
 import Email from '../assets/gmail.png'
 import Instagram from '../assets/instagram (1).png'
-import Facebook from '../assets/facebook (1).png'
 import Contact from '../assets/phone.png'
-import Twitter from '../assets/twitter (1).png'
 import Logo from '../assets/Luxurya-remove.png'
 
 
@@ -17,7 +15,7 @@ export const Footer = () => {
         <img
           src={Logo}
           alt="Logo"
-          className="h-14  sm:h-14 md:h-16 w-36 object-cover" // Logo scales for small, medium, and larger screens
+          className="h-14  sm:h-14 md:h-16 w-36 object-cover" 
         />
           
           <p className="text-sm mt-2">
@@ -51,15 +49,7 @@ export const Footer = () => {
             >
               <img src={Whatsapp} alt='Whatspp' className="w-8 h-8"/>
             </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-500"
-            >
-              <img src={Facebook} alt='Whatspp' className="w-8 h-8"/>
-             
-            </a>
+
             <a
               href="https://instagram.com"
               target="_blank"
@@ -69,15 +59,7 @@ export const Footer = () => {
               <img src={Instagram} alt='Whatspp' className="w-8 h-8"/>
               
             </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-400"
-            >
-              <img src={Twitter} alt='Whatspp' className="w-8 h-8"/>
-              
-            </a>
+
             <a
               href="https://youtube.com"
               target="_blank"

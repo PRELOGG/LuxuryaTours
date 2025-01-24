@@ -16,7 +16,7 @@ export const Header = () => {
       {/* Enquiry Button */}
       <div>
         <button
-          className="btn btn-dark text-white text-sm sm:text-base px-3 sm:px-4 py-1 sm:py-2 bg-gradient-to-r from-emerald-700 to-gray-900  rounded-tl-2xl rounded-br-2xl shadow-md animate-bounce "
+          className="btn btn-dark text-white text-sm sm:text-base px-3 sm:px-4 py-1 sm:py-2 bg-gradient-to-r from-yellow-700 to-gray-900  rounded-tl-2xl rounded-br-2xl shadow-md animate-bounce "
           type="button" onClick={()=>window.location.href='/Enquiry'}
         >
           Enquiry

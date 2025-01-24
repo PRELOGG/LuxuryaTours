@@ -26,9 +26,9 @@ export const Mysuru = () => {
           karnataka
           </h1>
           <p className="mt-4 text-center bg-gradient-to-r from-white to-yellow-500 bg-clip-text text-transparent text-sm sm:text-base lg:text-lg">
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
+          Karnataka, located in the southern part of India, is a treasure trove of cultural heritage, natural wonders, 
+          and vibrant traditions. Known for its majestic temples, historic forts,
+           pristine beaches, and lush greenery, Karnataka offers a diverse travel experience.
 
           </p>
           {/* <p className="text-white border-2 border-solid w-36 h-10 p-2 items-center flex justify-center mt-3 hover:text-blue-300 rounded-full">Start now</p> */}

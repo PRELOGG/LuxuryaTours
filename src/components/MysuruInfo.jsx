@@ -1,13 +1,12 @@
-import React from 'react'
-import  Mysore from '../assets/Mysore.png'
-import Coorg from '../assets/coorg.avif'
-import Chikamangalur from '../assets/Chikamanga.jpg'
-import Dandly from '../assets/dandly.webp'
-import Gokarna from '../assets/gokarna.webp'
-import Udupi from '../assets/Udupi.jpg'
-import Murudheshwar from '../assets/Murudheshwa.jpg'
-import Mangalore from '../assets/Mangalore.jpg'
-
+import React from 'react';
+import Mysore from '../assets/Mysore.png';
+import Coorg from '../assets/coorg.avif';
+import Chikamangalur from '../assets/Chikamanga.jpg';
+import Dandly from '../assets/dandly.webp';
+import Gokarna from '../assets/gokarna.webp';
+import Udupi from '../assets/Udupi.jpg';
+import Murudheshwar from '../assets/Murudheshwa.jpg';
+import Mangalore from '../assets/Mangalore.jpg';
 
 export const MysuruInfo = () => {
     const places = [
@@ -51,43 +50,34 @@ export const MysuruInfo = () => {
             image: Mangalore, // Replace with actual image link
             description: "A museum showcasing vintage locomotives, carriages, and the history of Indian railways."
         }
-      
     ];
 
     return (
         <div className="bg-gray-100 p-10">
-        <h2 className="text-4xl font-bold text-center mb-10">
-            Top Tourist Places in Karnataka
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {places.map((place, index) => (
-                <div
-                    key={index}
-                    className="relative group overflow-hidden rounded-lg shadow-lg bg-white"
-                >
-                    <img
-                        src={place.image}
-                        alt={place.name}
-                        className="w-full h-60 object-cover transform group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="p-4">
-                        <h3 className="text-xl font-bold text-gray-800">{place.name}</h3>
-                        <p className="text-sm text-gray-600">{place.location}</p>
-                    </div>
+            <h2 className="text-4xl font-bold text-center mb-10">
+                Top Tourist Places in Karnataka
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {places.map((place, index) => (
                     <div
-                        className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 
-                                   transition-opacity duration-500 backdrop-blur-md flex items-center justify-center text-center p-6"
+                        key={index}
+                        className="relative group overflow-hidden rounded-lg shadow-lg bg-white" 
+                        onClick={() => window.location.href='/Enquiry'}
                     >
-                        <p className="text-white text-base leading-6 font-medium">
-                            {place.description}
-                        </p>
+                        <img
+                            src={place.image}
+                            alt={place.name}
+                            className="w-full h-60 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                        />
+                        <div className="p-4">
+                            <h3 className="text-xl font-bold text-gray-800">{place.name}</h3>
+                            {/* Removed location and used name instead */}
+                            <p className="text-sm text-gray-600">{place.description}</p>
+                        </div>
+                    
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
-    </div>
     );
 };
-
-
-

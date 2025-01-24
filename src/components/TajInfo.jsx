@@ -23,7 +23,7 @@ export const TajInfo = () => {
                 {places.map((place, index) => (
                     <div
                         key={index}
-                        className="relative group overflow-hidden rounded-lg shadow-lg bg-white"
+                        className="relative group overflow-hidden rounded-lg shadow-lg bg-white" onClick={()=>window.location.href='/Enquiry'}
                     >
                         <img
                             src={place.image}

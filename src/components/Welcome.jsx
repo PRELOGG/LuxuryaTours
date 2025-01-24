@@ -1,20 +1,13 @@
 import React from 'react';
 import Wecomvideo from '../assets/Footer/view[1].avif'
+import Scroll from '../assets/Scroll-removebg-preview.png'
 
 export const Welcome = () => {
     return (
       <div className="relative h-screen w-full">
         {/* Video Background */}
         <div className="absolute inset-0">
-          {/* <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover brightness-200"
-          >
-            <source src={Wecomvideo} type="video/mp4" />
-          </video> */}
+      
           <img src={Wecomvideo} alt='image' className="w-full h-full object-cover brightness-75"/>
         </div>
   
@@ -33,6 +26,7 @@ export const Welcome = () => {
             </p>
           </div>
         </div>
+        
       </div>
     );
   };

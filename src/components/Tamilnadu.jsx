@@ -34,11 +34,8 @@ export const Tamilnadu = () => {
           </h1>
           <p className="mt-4 text-center text-sm  sm:text-base lg:text-lg bg-gradient-to-r from-white to-yellow-500 bg-clip-text text-transparent">
            
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
+          Tamil Nadu, located in the southern part of India, is a state that boasts a perfect blend of cultural heritage, natural beauty, and architectural marvels. From ancient temples to serene hill stations, golden beaches, and vibrant festivals, Tamil Nadu is a paradise for 
+          travelers seeking diverse experiences. Here’s a glimpse into the must-visit tourist destinations and experiences for travelers.
           </p>
           {/* <p className="text-white border-2 border-solid w-36 h-10 p-2 items-center flex justify-center mt-3 hover:text-blue-300 rounded-full">Start now</p> */}
           <button className="btn bg-black text-white rounded-pill my-4 fs-5 px-4" onClick={()=>window.location.href='/TamilnaduInformation'}>Start now</button>

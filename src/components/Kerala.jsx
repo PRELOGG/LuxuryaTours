@@ -20,13 +20,8 @@ export const Kerala = () => {
             Kerala
           </h1>
           <p className="mt-4 text-center sm:text-right  text-sm sm:text-base lg:text-lg bg-gradient-to-r from-white to-yellow-500 bg-clip-text text-transparent">
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
-            Explore the cultural heritage, vibrant festivals, and breathtaking landscapes of Tamil Nadu.
+          Kerala, nestled between the Arabian Sea and the Western Ghats, is a tropical paradise known for its serene backwaters, lush greenery, pristine beaches, and rich cultural heritage. It’s a
+           dream destination for travelers seeking tranquility, adventure, or a blend of both. Here’s an ultimate travel guide to Kerala for tourists.
           </p>
           <button className="btn bg-black text-white rounded-full my-4 px-6 py-2 hover:bg-gray-800" onClick={()=>window.location.href='/KeralaInformation'}>
             Start now
