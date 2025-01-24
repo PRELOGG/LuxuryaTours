@@ -1,6 +1,6 @@
 import React from 'react';
 import Wecomvideo from '../assets/Footer/view[1].avif'
-import Scroll from '../assets/Scroll-removebg-preview.png'
+
 
 export const Welcome = () => {
     return (
